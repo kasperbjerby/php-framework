@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 150px;
+    color: #544f4f;
+    font-family: fantasy;
+    font-size: 10vw;
+    text-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+form {
+    width: 25%;
+    display: block;
+    margin: 20px auto;
+    
+    input {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #eee;
+        cursor: auto;
+        color: grey;
+        margin: 10px auto;
+        display: block;
+        
+        &[type="submit"] {
+            cursor: pointer;
+        
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
